@@ -9,3 +9,6 @@ scratch/
 # ignore zarr files and their contents
 *.zarr/
 *.zarr
+
+# ignore .nc files
+*.nc
