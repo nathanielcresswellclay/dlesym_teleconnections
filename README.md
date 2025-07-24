@@ -9,7 +9,7 @@ To sidestep this, we will run the atmospheric compoenet of DLESyM in forced mode
 
 # The Repo
 
-This repo was made as part of an assignment. Each script corresponds to a set of analyses and figures that were used to explore ENSO-SAM teleconnections in DLESyM. Here are brief descriptions of the contained files:  
+This repo was made as part of an assignment. Each script corresponds to a set of analyses and figures that were used to explore ENSO-SAM teleconnections in DLESyM. Github's file limits mean I can't upload the data used, but I'm including all processing scripts. Generally in these analyses, raw DLESyM output is processed with the script in `data/` to create reduced dimensionality caches which are used in the evaluation routines. Here are brief descriptions of the contained files:  
 
 
 `environment.yaml`: requirements file for the environmnet used to run and develop.  
@@ -17,6 +17,7 @@ This repo was made as part of an assignment. Each script corresponds to a set of
 `sst_sam_regression.py`: calculates and plots the regression of SST anomalies on SAM phase.  
 `data/monthly_sst.py`: takes a DLESyM forecast and calculates monthly averaged SST anomalies.   
 `data/monthly_z250.py`: takes a DLESyM forecast and calculates the monthly averaged z250. anomalies.   
+`plots/*.png`: output plots of the analsis routines. These can be used as a reference. 
 
 <!-- `plotting_olr`: function to plot forecast output  -->
 
